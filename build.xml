@@ -1,3 +1,5 @@
+this is written by me nag
+
 <?xml version="1.0"?>
 <project name="fax" basedir="." default="build">
     <property name="src.dir" value="src"/>
@@ -7,6 +9,7 @@
 
     <path id="master-classpath">
         <fileset dir="${web.dir}/WEB-INF/lib">
+
             <include name="*.jar"/>
         </fileset>
         <pathelement path="${build.dir}"/>
